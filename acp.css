@@ -1,0 +1,41 @@
+#acp{
+	float: right;
+	width: 550px;
+	display: float;
+}
+#acpDesign{
+	display: float;
+	background-color: #1A1A1A;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#username, #password{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: lightgrey;
+}
+text{
+	color: skyblue;
+	padding: 5px;
+}
+#Btn{
+	margin-left: 10px;
+	font-family: 'YourFontName';
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#Btn:hover{
+	box-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+	color: violet;
+	font-family: 'YourFontName';
+}
+#admin{
+	color: red;
+}
+#developer{
+	color: orange;
+}
+#donor{
+	color: blue;
+}
+#user{
+	color: white;
+}

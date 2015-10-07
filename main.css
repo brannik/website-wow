@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('../fonts/font.ttf'); /*URL to font*/
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+body{
+	background-image: url('../graphics/background.jpg');
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	display: float;
+	background-color: #1A1A1A;
+	width: 90%;
+	margin-left: 15px;
+	margin-top: 20px;	
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+h1{
+	list-style: none;
+	font-family: 'YourFontName';
+	padding:5px;
+	text-decoration: none;
+    text-transform: uppercase;
+	text-shadow: 2px 2px 5px skyblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+}
+p{
+	color: skyblue;
+	padding: 5px;
+}
+h2{
+	list-style: none;
+	
+	padding:5px;
+	text-decoration: none;
+    text-transform: uppercase;
+	text-shadow: 2px 2px 5px skyblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+}
+h3{
+padding-left: 65%;
+font-size: 10px;
+color: skyblue;
+padding-bottom: 10px;
+}
+#login{
+	float: right;
+	width: 550px;
+	height: 300px;
+	display: float;
+}
+#loginDesign{
+	display: float;
+	background-color: #1A1A1A;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#username, #password{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: lightgrey;
+}
+text{
+	color: skyblue;
+	padding: 5px;
+}
+#Btn{
+	margin-left: 10px;
+	font-family: 'YourFontName';
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#Btn:hover{
+	box-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+	color: violet;
+	font-family: 'YourFontName';
+}
+
+

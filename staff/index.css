@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('../fonts/font.ttf'); /*URL to font*/
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+body{
+	background-image: url('../graphics/background.jpg');
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	display: float;
+	background-color: #1A1A1A;
+	width: 80%;
+	height: 400px;
+	margin-left: 15px;
+	margin-top: 20px;	
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+h1{
+	list-style: none;
+	font-family: 'YourFontName';
+	padding:5px;
+	text-decoration: none;
+    text-transform: uppercase;
+	text-shadow: 2px 2px 5px skyblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+}
+table{
+
+}
+h2{
+	font-family: 'YourFontName';
+	padding:5px;
+	text-decoration: none;
+    text-transform: uppercase;
+	text-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+	display: block;
+    font-weight: bold;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+#staffDesn {
+	height: 100%;
+	width: 100%;
+}
+i#titleD{
+	width:100%;
+	text-align: center;
+}

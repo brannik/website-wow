@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('../fonts/font.ttf'); /*URL to font*/
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+body{
+	background-image: url('../graphics/background.jpg');
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	display: float;
+	background-color: #1A1A1A;
+	width: 320px;
+	height: 200px;
+	margin-left: 15px;
+	margin-top: 20px;	
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+h1{
+	list-style: none;
+	font-family: 'YourFontName';
+	padding:5px;
+	text-decoration: none;
+    text-transform: uppercase;
+	text-shadow: 2px 2px 5px skyblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+}
+text{
+	color: skyblue;
+	padding: 5px;
+}
+hr{
+	box-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+}
+h2{
+	text-decoration: none;
+	font-family: 'YourFontName';
+    text-transform: uppercase;
+	text-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+#tblPos{
+	margin-top: 20px;
+	margin-left:20px;
+}
+#mergedCol{
+	padding-left: 180px;
+}
+input{
+	margin-left: 10px;
+	font-family: 'YourFontName';
+	box-shadow: 1px 1px 1px lightblue, 0 0 10px skyblue, 0 0 3px blue;
+}
+input:hover{
+	box-shadow: 1px 1px 1px skyblue, 0 0 15px blue, 0 0 3px darkblue;
+	color: violet;
+	font-family: 'YourFontName';
+}

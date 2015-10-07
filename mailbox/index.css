@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('../fonts/font.ttf'); /*URL to font*/
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+body{
+	background-image: url('../graphics/background.jpg');
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	display: float;
+	background-color: #1A1A1A;
+	width: 80%;
+	margin-left: 15px;
+	margin-top: 20px;	
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+h1{
+	list-style: none;
+	font-family: 'YourFontName';
+	padding-top:5px;
+	text-decoration: none;
+    text-transform: uppercase;
+	text-shadow: 2px 2px 5px skyblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+}
+text{
+	color: skyblue;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+hr{
+	box-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+}
+h2{
+	text-decoration: none;
+	font-family: 'YourFontName';
+    text-transform: uppercase;
+	text-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+h4{
+	text-decoration: none;
+	font-family: 'YourFontName';
+    text-transform: uppercase;
+	text-shadow: 1px 1px 1px orange, 0 0 25px yellow, 0 0 3px red;
+	display: block;
+    font-weight: bold;
+	color: orange;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+h3{
+padding-left: 65%;
+font-size: 10px;
+color: skyblue;
+padding-bottom: 10px;
+}
+h5{
+	text-decoration: none;
+	font-family: 'YourFontName';
+    text-transform: uppercase;
+	text-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+	display: block;
+    font-weight: bold;
+	color: white;
+	font-size: 14px;
+	padding-left: 15px;
+}
+h6{
+	text-decoration: none;
+	font-family: 'YourFontName';
+    text-transform: uppercase;
+	text-shadow: 1px 1px 1px orange, 0 0 25px yellow, 0 0 3px red;
+	display: block;
+    font-weight: bold;
+	color: orange;
+	font-size: 14px;
+	padding-left: 15px;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin: 0px;
+}
+h4.ingame{
+	text-decoration: none;
+	font-family: 'YourFontName';
+    text-transform: uppercase;
+	text-shadow: 1px 1px 1px green, 0 0 25px lime, 0 0 3px lime;
+	display: block;
+    font-weight: bold;
+	color: white;
+	font-size: 14px;
+	padding-top:2px;
+	padding-left: 15px;
+}
+#buttonsPos{
+	margin-bottom: 3px;
+	display: float;
+	float: right;
+}
+a{
+	color: white;
+	text-decoration:none;
+}
+a:hover{
+	text-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+	color: violet;
+}
+#messageDesign{
+	width: 100%;
+	text-align: center;
+}

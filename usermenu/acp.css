@@ -1,0 +1,88 @@
+#acp{
+	width: 300px;
+	float:right;
+	margin-right: 20px;
+}
+#acpDesign{
+	background-color: #1A1A1A;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#username, #password{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: lightgrey;
+}
+text{
+	color: skyblue;
+	padding: 5px;
+}
+#Btn{
+	margin-left: 10px;
+	font-family: 'YourFontName';
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#Btn:hover{
+	box-shadow: 1px 1px 1px skyblue, 0 0 25px blue, 0 0 3px darkblue;
+	color: violet;
+	font-family: 'YourFontName';
+}
+#admin{
+	color: red;
+}
+#developer{
+	color: orange;
+}
+#donor{
+	color: blue;
+}
+#user{
+	color: white;
+}
+#acpTable{
+	padding-left: 10%;
+}
+#acpPos{
+	margin:20px;
+	
+}
+#BtnCell{
+	text-align: right;
+}
+
+
+.blink {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}

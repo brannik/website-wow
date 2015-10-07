@@ -1,0 +1,7 @@
+background
+dark  1b1b1b
+light  494848
+radial gradient + reverce
+
+
+

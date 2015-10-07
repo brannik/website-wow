@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<count_conf>
+		<text>106</text>
+	</count_conf>
+	<title>
+		<id>1</id>
+		<text>Private #s</text>
+	</title>
+	<title>
+		<id>2</id>
+		<text>Corporal #s</text>
+	</title>
+	<title>
+		<id>3</id>
+		<text>Sergeant #s</text>
+	</title>
+	<title>
+		<id>4</id>
+		<text>Master Sergeant #s</text>
+	</title>
+	<title>
+		<id>5</id>
+		<text>Sergeant Major #s</text>
+	</title>
+	<title>
+		<id>6</id>
+		<text>Knight #s</text>
+	</title>
+	<title>
+		<id>7</id>
+		<text>Knight Lieutenant #s</text>
+	</title>
+	<title>
+		<id>8</id>
+		<text>Knight Captain #s</text>
+	</title>
+	<title>
+		<id>9</id>
+		<text>Knight Champion #s</text>
+	</title>
+	<title>
+		<id>10</id>
+		<text>Lieutenant Commander #s</text>
+	</title>
+	<title>
+		<id>11</id>
+		<text>Commander #s</text>
+	</title>
+	<title>
+		<id>12</id>
+		<text>Marshal #s</text>
+	</title>
+	<title>
+		<id>13</id>
+		<text>Field Marshal #s</text>
+	</title>
+	<title>
+		<id>14</id>
+		<text>Grant Marshal #s</text>
+	</title>
+	<title>
+		<id>126</id>
+		<text>#s Of The Alliance</text>
+	</title>
+	<title>
+		<id>15</id>
+		<text>Scout #s</text>
+	</title>
+	<title>
+		<id>16</id>
+		<text>Grunt #s</text>
+	</title>
+	<title>
+		<id>17</id>
+		<text>Sergeant #s</text>
+	</title>
+	<title>
+		<id>18</id>
+		<text>Senior Sergeant #s</text>
+	</title>
+	<title>
+		<id>19</id>
+		<text>First Sergeant #s</text>
+	</title>
+	<title>
+		<id>20</id>
+		<text>Stone Guard #s</text>
+	</title>
+	<title>
+		<id>21</id>
+		<text>Blood Guard #s</text>
+	</title>
+	<title>
+		<id>22</id>
+		<text>Legionnaire #s</text>
+	</title>
+	<title>
+		<id>23</id>
+		<text>Centurion #s</text>
+	</title>
+	<title>
+		<id>24</id>
+		<text>Champion #s</text>
+	</title>
+	<title>
+		<id>25</id>
+		<text>Lieutenant General #s</text>
+	</title>
+	<title>
+		<id>26</id>
+		<text>General #s</text>
+	</title>
+	<title>
+		<id>27</id>
+		<text>Warlord #s</text>
+	</title>
+	<title>
+		<id>28</id>
+		<text>High Warlord #s</text>
+	</title>
+	<title>
+		<id>127</id>
+		<text>#s Of the Horde</text>
+	</title>
+	<title>
+		<id>42</id>
+		<text>Gladiator #s</text>
+	</title>
+	<title>
+		<id>43</id>
+		<text>Duelist #s</text>
+	</title>
+	<title>
+		<id>44</id>
+		<text>Rival #s</text>
+	</title>
+	<title>
+		<id>45</id>
+		<text>Challenger #s</text>
+	</title>
+	<title>
+		<id>82</id>
+		<text>Arena Master #s</text>
+	</title>
+	<title>
+		<id>62</id>
+		<text>Merciless Gladiator #s</text>
+	</title>
+	<title>
+		<id>71</id>
+		<text>Vengeful Gladiator #s</text>
+	</title>
+	<title>
+		<id>80</id>
+		<text>Brutal Gladiator #s</text>
+	</title>
+	<title>
+		<id>157</id>
+		<text>Deadly Gladiator #s</text>
+	</title>
+	<title>
+		<id>167</id>
+		<text>Furious Gladiator #s</text>
+	</title>
+	<title>
+		<id>169</id>
+		<text>Relentless Gladiator #s</text>
+	</title>
+	<title>
+		<id>177</id>
+		<text>Wrathful Gladiator #s</text>
+	</title>
+	<title>
+		<id>163</id>
+		<text>Vanquisher #s</text>
+	</title>
+	<title>
+		<id>47</id>
+		<text>Conqueror #s</text>
+	</title>
+	<title>
+		<id>48</id>
+		<text>Justicar #s</text>
+	</title>
+	<title>
+		<id>72</id>
+		<text>Battlemaster #s</text>
+	</title>
+	<title>
+		<id>53</id>
+		<text>#s Champion of the Naaru</text>
+	</title>
+	<title>
+		<id>64</id>
+		<text>#s Hand of A'dal</text>
+	</title>
+	<title>
+		<id>172</id>
+		<text>#s The Patient</text>
+	</title>
+	<title>
+		<id>142</id>
+		<text>#s The Undying</text>
+	</title>
+	<title>
+		<id>141</id>
+		<text>#s The Immortal</text>
+	</title>
+	<title>
+		<id>140</id>
+		<text>#s Of The Nightfall</text>
+	</title>
+	<title>
+		<id>121</id>
+		<text>Twilight Vanquisher #s</text>
+	</title>
+	<title>
+		<id>130</id>
+		<text>Obsidian Slayer #s</text>
+	</title>
+	<title>
+		<id>120</id>
+		<text>#s The Magic Seeker</text>
+	</title>
+	<title>
+		<id>164</id>
+		<text>Starcaller #s</text>
+	</title>
+	<title>
+		<id>165</id>
+		<text>#s The Astral Walker</text>
+	</title>
+	<title>
+		<id>166</id>
+		<text>#s Herald of the Titans</text>
+	</title>
+	<title>
+		<id>150</id>
+		<text>#s The Celestial Defender</text>
+	</title>
+	<title>
+		<id>160</id>
+		<text>#s Conqueror of Ulduar</text>
+	</title>
+	<title>
+		<id>161</id>
+		<text>#s Champion of Ulduar</text>
+	</title>
+	<title>
+		<id>158</id>
+		<text>Death's Demise #s</text>
+	</title>
+	<title>
+		<id>122</id>
+		<text>#s Conqueror of Naxxramas</text>
+	</title>
+	<title>
+		<id>129</id>
+		<text>#s Champion of the Frozen Wastes</text>
+	</title>
+	<title>
+		<id>171</id>
+		<text>#s The Argent Defender</text>
+	</title>
+	<title>
+		<id>175</id>
+		<text>#s The Kingslayer</text>
+	</title>
+	<title>
+		<id>174</id>
+		<text>#s Bane of the Fallen King</text>
+	</title>
+	<title>
+		<id>173</id>
+		<text>#s The Light of Dawn</text>
+	</title>
+	<title>
+		<id>83</id>
+		<text>Salty #s</text>
+	</title>
+	<title>
+		<id>84</id>
+		<text>Chef #s</text>
+	</title>
+	<title>
+		<id>63</id>
+		<text>#s Of the Shattered Sun</text>
+	</title>
+	<title>
+		<id>77</id>
+		<text>#s The Exalted</text>
+	</title>
+	<title>
+		<id>130</id>
+		<text>Ambassador #s</text>
+	</title>
+	<title>
+		<id>79</id>
+		<text>#s The Diplomat</text>
+	</title>
+	<title>
+		<id>144</id>
+		<text>Bloodsail Admiral #s</text>
+	</title>
+	<title>
+		<id>156</id>
+		<text>Crusader #s</text>
+	</title>
+	<title>
+		<id>145</id>
+		<text>#s The Insane</text>
+	</title>
+	<title>
+		<id>132</id>
+		<text>#s Guardian of Cenarius</text>
+	</title>
+	<title>
+		<id>131</id>
+		<text>#s The Argent Champion</text>
+	</title>
+	<title>
+		<id>176</id>
+		<text>#s Of the Ashen Verdict</text>
+	</title>
+	<title>
+		<id>147</id>
+		<text>#s Of Darnassus</text>
+	</title>
+	<title>
+		<id>113</id>
+		<text>#s Of Gnomeregan</text>
+	</title>
+	<title>
+		<id>148</id>
+		<text>#s Of Ironforge</text>
+	</title>
+	<title>
+		<id>149</id>
+		<text>#s Of Stormwind</text>
+	</title>
+	<title>
+		<id>146</id>
+		<text>#s Of The Exodar</text>
+	</title>
+	<title>
+		<id>150</id>
+		<text>#s Of Orgrimmar</text>
+	</title>
+	<title>
+		<id>151</id>
+		<text>#s Of Sen'jin</text>
+	</title>
+	<title>
+		<id>152</id>
+		<text>#s Of Silvermoon</text>
+	</title>
+	<title>
+		<id>153</id>
+		<text>#s Of Thunder Bluff</text>
+	</title>
+	<title>
+		<id>154</id>
+		<text>#s Of The Undercity</text>
+	</title>
+	<title>
+		<id>46</id>
+		<text>Scarab Lord #s</text>
+	</title>
+	<title>
+		<id>133</id>
+		<text>Brewmaster #s</text>
+	</title>
+	<title>
+		<id>135</id>
+		<text>#s The Love Fool</text>
+	</title>
+	<title>
+		<id>137</id>
+		<text>Matron #s</text>
+	</title>
+	<title>
+		<id>138</id>
+		<text>Patron #s</text>
+	</title>
+	<title>
+		<id>124</id>
+		<text>#s The Hallowed</text>
+	</title>
+	<title>
+		<id>134</id>
+		<text>Merrymaker #s</text>
+	</title>
+	<title>
+		<id>155</id>
+		<text>#s The Noble</text>
+	</title>
+	<title>
+		<id>168</id>
+		<text>#s The Pilgrim</text>
+	</title>
+	<title>
+		<id>76</id>
+		<text>Flame Keeper #s</text>
+	</title>
+	<title>
+		<id>75</id>
+		<text>Flame Warden #s</text>
+	</title>
+	<title>
+		<id>74</id>
+		<text>Elder #s</text>
+	</title>
+	<title>
+		<id>125</id>
+		<text>Loremaster #s</text>
+	</title>
+	<title>
+		<id>81</id>
+		<text>#s The Seeker</text>
+	</title>
+	<title>
+		<id>78</id>
+		<text>#s The Explorer</text>
+	</title>
+	<title>
+		<id>143</id>
+		<text>#s Jenkins</text>
+	</title>
+</root>

@@ -1,0 +1,196 @@
+*{
+	/* A universal CSS reset */
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:14px;
+	color:#666;
+	background:#111 no-repeat;
+	padding-left: 10px;
+	padding-top: 30px;
+	/* CSS3 Radial Gradients */
+	background-image:-moz-radial-gradient(center -100px 45deg, circle farthest-corner, #444 150px, #111 300px);
+	background-image:-webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111));
+	background-image: url('../graphics/background_left.jpg');
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment: fixed;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#navigationMenu li{
+	list-style:none;
+	height:39px;
+	padding:2px;
+	width:40px;
+}
+
+#navigationMenu span{
+	/* Container properties */
+	width:0;
+	left:38px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a{
+	background:url('img/navigation.png') no-repeat;
+	height:39px;
+	width:38px;
+	display:block;
+	position:relative;
+}
+
+/* General hover styles */
+
+#navigationMenu a:hover span{ width:auto; padding:0 13px;overflow:visible; }
+#navigationMenu a:hover{
+	text-decoration:none;
+	
+	/* CSS outer glow with the box-shadow property */
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow: 1px 1px 1px #86A1AA, 0 0 25px #7AB9D4, 0 0 3px #0000A3;
+	
+}
+
+/* Green Button */
+
+#navigationMenu .home {	
+	background-position:0 0;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#navigationMenu .home:hover {	
+	background-position:0 -39px;}
+#navigationMenu .home span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+/* Blue Button */
+
+#navigationMenu .donate { 
+background-position:-40px 0;
+box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#navigationMenu .donate :hover {
+	background-position: -40px -39px;}
+#navigationMenu .donate  span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+/* Orange Button */
+
+#navigationMenu .staff { 
+background-position:-78px 0;
+box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+#navigationMenu .staff:hover { background-position:-78px -39px;}
+#navigationMenu .staff span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+/* Yellow Button */
+
+#navigationMenu .support {
+ background-position:-118px 0;
+ box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+ }
+#navigationMenu .support:hover{ background-position:-118px -39px;}
+#navigationMenu .support span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+/* Purple Button */
+
+#navigationMenu .shop {
+ background-position:-154px 0;
+ box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+ }
+#navigationMenu .shop:hover { background-position:-154px -39px;}
+#navigationMenu .shop span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+#navigationMenu .vote {
+ background-position:-196px 0;
+ box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+ }
+#navigationMenu .vote:hover { background-position:-196px -39px;}
+#navigationMenu .vote span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+#navigationMenu .galery {
+ background-position:-234px 0;
+ box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+ }
+#navigationMenu .galery:hover { background-position:-234px -39px;}
+#navigationMenu .galery span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+#navigationMenu .armory {
+ background-position:-274px 0;
+ box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+ }
+#navigationMenu .armory :hover { background-position:-274px -39px;}
+#navigationMenu .armory  span{
+	background-color:grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
+
+#navigationMenu .admin{
+ background-position:-314px 0;
+ box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+ }
+#navigationMenu .admin :hover { background-position:-314px -39px;}
+#navigationMenu .admin  span{
+	background-color: grey;
+	color: white;
+	text-shadow: 2px 2px 5px skyblue;
+	box-shadow: 1px 1px 1px lightblue, 0 0 25px skyblue, 0 0 3px blue;
+}
